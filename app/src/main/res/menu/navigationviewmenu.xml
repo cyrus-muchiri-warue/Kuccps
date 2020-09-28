@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/viewcourses"
+            android:icon="@drawable/ic_transform_black_24dp"
+            android:title="view selected courses" />
+        <item
+            android:id="@+id/calculatePoints"
+            android:icon="@drawable/ic_transform_black_24dp"
+            android:title="calculate cluster points" />
+
+        <item
+            android:id="@+id/newsletter"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="subscribe to newsletter" />
+        <item
+            android:id="@+id/review"
+            android:icon="@drawable/ic_loop_black_24dp"
+            android:title="review application"/>
+    </group>
+    <item android:title="communication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title= "help"/>
+
+        </menu>
+    </item>
+    <item android:title="policy">
+        <menu>
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="@string/appinfo"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="logout"/>
+
+        </menu>
+    </item>
+
+</menu>
